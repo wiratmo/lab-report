@@ -290,6 +290,11 @@
             color: #fff;
             border: 1px solid #82d05e;
         }
+        @media (max-width: 600px) {
+            #btn-logout{
+                padding-top:15px
+            }
+        }
     </style>
 </head>
 
@@ -359,7 +364,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-6" style="padding-top:10px">
+                        <div class="col-6" id="btn-logout">
                             <a href="#"
                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();"class="text-body font-weight-bold px-0">
                                 <i class="fa-solid fa-arrow-right-from-bracket fa-lg"></i>
